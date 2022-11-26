@@ -1,0 +1,163 @@
+/* PALETA DE CORES
+
+Amarelo - #C67700
+Vermelho - #571515
+Azul - #00132E
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* CABEÇALHO */
+
+.inicio {
+    background-image: url("../Fundos/fundo-azul.png");
+    justify-content: space-between;
+}
+
+.header {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 13px;
+}
+
+li {
+    padding: 17px;
+    font-size: 13pt;
+}
+
+.header a:hover {
+    color: #f1f1f1;
+    font-weight: 600;
+}
+
+/* MAIN */
+
+main {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infos {
+    box-shadow: 0px 0px 25px 0px #A1A1A1;
+    width: 80%;
+    background-color: #ececec;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+h1 {
+    color: #00132E;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 11px;
+    font-weight: 600;
+    background-color: #00132E;
+    color: #f1f1f1;
+    border-radius: 13px;
+    font-size: 12pt;
+    width: 15vw;
+}
+
+.btn-voltar button {
+    background-color: #ececec;
+    border: #00132E solid 2px;
+    color: #00132E;
+}
+
+.btn-voltar {
+    display: flex;
+    flex-direction: row;
+}
+.acoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 35vw;
+}
+
+th {
+    border: #00132E solid 2px;
+    padding: 8px;
+    color: #00132E;
+}
+
+td {
+    padding: 8px;
+    color: #000000fd;
+    border-top: #3a3a3aa2 solid 1px;
+    border-bottom: #3a3a3aa2 solid 1px;
+}
+
+
+
+.tabela {
+    box-shadow: 0px 0px 25px 0px #A1A1A1;
+    width: 80%;
+    background-color: #ececec;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+}
+
+.mudar-infos {
+    box-shadow: 0px 0px 25px 0px #A1A1A1;
+    width: 80%;
+    background-color: #ececec;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+}
+
+.tabela button{
+    background-color: #ececec;
+    border: 0;
+    color: #00132E;
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #C67700;
+}
+
+#salvar {
+    padding: 11px;
+    font-weight: 600;
+    background-color: #00132E;
+    color: #f1f1f1;
+    border-radius: 13px;
+    font-size: 12pt;
+    width: 10vw;
+}
