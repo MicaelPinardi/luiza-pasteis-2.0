@@ -1,0 +1,163 @@
+/* PALETA DE CORES
+
+Amarelo - #C67700
+Vermelho - #571515
+Azul - #00132E
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* CABEÇALHO */
+
+.inicio {
+    background-image: url("Fundos/fundo-vermelho.png");
+    justify-content: space-between;
+}
+
+.header {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 13px;
+}
+
+li {
+    padding: 17px;
+    font-size: 13pt;
+}
+
+a:hover {
+    color: #ff9900;
+    font-weight: 600;
+}
+
+/* NOVIDADE */
+
+.novidade {
+    display: flex;
+    flex-direction: row;
+    padding: 4vh;
+}
+
+.novidade h2 {
+    color: #ffd000;
+    font-size: 30pt;
+}
+.novidade h3 {
+    color: #C67700;
+    font-size: 20pt;
+}
+
+.novidade p {
+    font-size: 15pt;
+}
+
+.informacoes {
+    margin-left: 30px;
+    color: #f1f1f1;
+}
+
+#pastel-novidade {
+    border-radius: 15px;
+    box-shadow: 0px 0px 27px -1px #0000008a;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    font-size: 15pt;
+    color: #f1f1f1;
+}
+
+.infos img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 27px -1px #000000;
+}
+
+.infos h3 {
+    color: #C67700;
+    font-size: 18pt;
+}
+
+.endereco {
+    background-image: url("Fundos/fundo-preto.png");
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.txt {
+    margin: 3vh;
+}
+.contato {
+    background-color: #141414;
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.historia {
+    padding: 3rem;
+    box-shadow: inset - 0px 0px 27px -1px #0000008a;
+}
+
+.historia h2 {
+    color: #C67700;
+    font-size: 22pt;
+}
+
+.historia h3 {
+    color: #00132E;
+    background-color: #f0f0f0;
+}
+
+.pt1 {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-bottom: 3rem;
+}
+.pt2 {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-bottom: 3rem;
+}
+
+.textos {
+    margin-left: 3rem;
+    border-left: #00132E solid 3px;
+    padding-left: 40px;
+    height: 13rem;
+}
+
+.historia img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 27px -1px #0000008a;
+}
